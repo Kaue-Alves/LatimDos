@@ -1,0 +1,266 @@
+/*GERAIS*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.row{
+    margin: 0;
+}
+
+.conteiner{
+    padding: 70px 0;
+}
+
+p, li{
+    color: #444;
+    font-size: 14px;
+}
+/*GERAIS*/
+
+
+/* BARRA DE NAVEGAÇÃO */
+header, .navbar{
+    background-color: #f5f5f5;
+}
+
+#logo{
+    padding-left: 5px;
+    width: 75px;
+}
+#logo:hover{
+    border: 1px solid #292929;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Arial, Fantasy;
+    letter-spacing: 3px;
+}
+
+.navbar-brand:hover{
+    color: rgb(199, 160, 32);
+}
+
+#navbar-links a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1rem .8rem;
+    cursor: pointer;
+}
+
+#menuButton {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: none;
+}
+/* BARRA DE NAVEGAÇÃO */
+
+/* SLIDE */
+
+.conteiner-fluid{
+    width: 100%;
+}
+
+.d-block{
+    width: 100%;
+    height: 95vh;
+}
+
+
+#IMGslider1{
+    background-image: url(../img/img-slider1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#IMGslider2{
+    background-image: url(../img/img-slider2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#IMGslider3{
+    background-image: url(../img/img-slider3.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#mainSlider, .carousel-item {
+    height: 95vh;
+}
+
+.carousel-caption{
+    top: 40%;
+}
+
+.carousel-caption > h2{
+    font-size: 50px;
+}
+
+.carousel-caption > p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: rgb(226, 226, 226);
+    text-shadow: 2px 2px black;
+}
+
+#h2-slide1{
+    color: rgb(253, 253, 253);
+    text-shadow: 2px 2px black;
+}
+#h2-slide2{
+    color: rgb(155, 1, 1);
+    text-shadow: 2px 2px black;
+}
+#h2-slide3{
+    color: #DC8775;
+    text-shadow: 2px 2px black;
+}
+
+.main-btn{
+    background-color: #ECC30B;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.400);
+    border-color: #ECC30B;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.500);
+}
+
+.carousel-indicators .active{
+    background-color: #ECC30B;
+}
+/* SLIDE */
+
+/* SOBRE A EMPRESA */
+.about-area{
+    background-color: #ECC30B;
+    padding-bottom: 20px;
+}
+
+.main-title{
+    color: #000000;
+    margin: 40px 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+.about-title{
+    margin-top: 10px;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+.md-6-colunas{
+    color: black;
+    font-size: 18px;
+}
+
+.about-list li{
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+}
+/* SOBRE A EMPRESA */
+
+/* SERVIÇOS DA EMPRESA */
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box img, .service-box h4{
+    transition: .3s;
+}
+
+.service-box img{
+    width: 40px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > img,
+.service-box:hover > h4{
+    color: #ECC30B;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* SERVIÇOS DA EMPRESA */
+
+/* FOOTER */
+#contact-area {
+    text-align: center;
+  }
+  
+  .contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ECC30B;
+  }
+  
+  .contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-box p {
+    font-size: 16px;
+  }
+  
+  .contact-tile {
+    font-weight: bold;
+    color: #ECC30B;
+  }
+  
+  #msg-box p {
+    font-size: 22px;
+  }
+  
+  #contact-form input[type="text"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+  }
+  
+  #contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+  }
+  
+  #contact-form .main-btn:hover {
+    color: #ECC30B;
+  }
+/* FOOTER */
